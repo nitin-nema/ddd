@@ -1,0 +1,38 @@
+DDD
+Domain - core of the business problems
+subdomian - specific aspect of the larger domain
+ubiquitous language
+
+DDD
+Layred architure
+1. Domain layer --encapsualte core business logic(attributes,entities)
+2. Application layer - coradinate business operation but doesn't im[lement business logic
+3. Infrasture layer - techincal details - database acess or the message queque
+4. User interface layer- interacting with end-user or extrnal system
+
+Strageic Design(Bounded context , context map)
+
+Big Ball of mud problem
+
+context - a specific domain or subdomian that has a bounded context
+bounded  context -  boundary that defines a specific domain/subdomain in which terms and concepts have a specific menaing
+relatationship - symmetric or asymmetric
+1.Partnership
+2. Shared Kernel - sahre domain model or data source
+3. Customer suppliers - one context provide the fucntionality or data to anoother context, whihc will consume
+4. confomist
+5. anti corruption layer
+6. open host services
+7. publisehed languge
+8. sperate ways
+
+
+C4 model
+
+Tatical Design ---
+- Entites(identity, lifecycle, mutable state) - changeable object
+-Value concetps or values that doesn't ahve entity
+-Aggregates - aggreagte root
+
+
+
